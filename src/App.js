@@ -9,7 +9,7 @@ function App() {
   const [cartIsShown,setCartIsShown]=useState(false);
 
   function showCartHandler(){
-
+    setCartIsShown(true);
   }
   function hideCartHandler(){
     setCartIsShown(false);
